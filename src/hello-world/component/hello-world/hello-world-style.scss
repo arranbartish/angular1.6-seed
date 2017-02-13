@@ -1,0 +1,11 @@
+@import "../../root";
+
+.hello-world {
+  width: 960px;
+  margin: auto;
+}
+
+.hello-world__title {
+  margin: 0;
+  background: $primary-color;
+}

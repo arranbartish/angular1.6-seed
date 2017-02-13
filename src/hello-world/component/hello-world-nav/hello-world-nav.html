@@ -1,0 +1,5 @@
+<div class="hello-world-nav">
+  <h3 class="date">{{vm.date | moment : 'MMMM Do, YYYY'}}</h3>
+  <a class="prev" href="#!/{{vm.date.clone().subtract(1,'d') | moment : 'YYYY-MM-DD'}}">&#8678;</a>
+  <a class="next" href="#!/{{vm.date.clone().add(1, 'd') | moment : 'YYYY-MM-DD'}}">&#8680;</a>
+</div>

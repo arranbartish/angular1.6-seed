@@ -1,0 +1,62 @@
+{
+  "name": "angular1.6-hello-world-seed",
+  "version": "1.0.0",
+  "description": "Fully plumbed webpack seed project",
+  "homepage": "https://github.com/arranbartish/angular1.6-seed",
+  "repository": {
+    "type": "git+https",
+    "url": "https://github.com/arranbartish/angular1.6-seed.git"
+  },
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "rimraf dist && karma start --single-run --browsers PhantomJS && NODE_ENV=prod webpack",
+    "start": "rimraf dist && NODE_ENV=prod webpack && http-server -p 8080",
+    "watch": "rimraf dist && node dev-server.js",
+    "unit": "rimraf dist && karma start"
+  },
+  "author": "Arran Bartish <arranbartish@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "angular-mocks": "^1.6.2",
+    "browserify": "^14.0.0",
+    "browserify-ng-html2js": "^1.3.0",
+    "browserify-ngannotate": "^2.0.0",
+    "css-loader": "0.23.0",
+    "http-server": "0.8.5",
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "karma": "^1.4.1",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.2",
+    "lodash": "^4.17.4",
+    "ng-annotate-loader": "0.0.10",
+    "ng-annotate-webpack-plugin": "^0.2.1-pre",
+    "node-noop": "^1.0.0",
+    "node-sass": "^4.4.0",
+    "raw-loader": "0.5.1",
+    "rimraf": "2.4.4",
+    "sass-loader": "^4.1.1",
+    "scssify": "^2.2.1",
+    "style-loader": "0.13.0",
+    "stylelint-config-standard": "^15.0.1",
+    "stylelint-webpack-plugin": "^0.5.1",
+    "wallaby-webpack": "0.0.33",
+    "watchify": "^3.9.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "1.14.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "moment": "2.10.6",
+    "uuid": "2.0.1"
+  }
+}

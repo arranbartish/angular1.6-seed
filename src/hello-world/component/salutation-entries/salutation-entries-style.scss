@@ -1,0 +1,17 @@
+.salutation-entries {
+  list-style: none;
+}
+
+.salutation-entries li {
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin: 0.3em auto;
+}
+
+.salutation-entries .label {
+  color: white;
+  background-color: #777;
+  border: solid 1px transparent;
+  border-radius: 0.2em;
+  padding: 0.2em;
+}

@@ -1,0 +1,13 @@
+@import "../../root";
+
+.salutation-form {
+  background: $primary-color;
+  padding: 1em;
+}
+
+.salutation-form__time,
+.salutation-form__salutation,
+.salutation-form__name,
+.salutation-form__submit {
+  font-size: 1.5em;
+}

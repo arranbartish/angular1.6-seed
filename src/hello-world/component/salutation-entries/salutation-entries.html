@@ -1,0 +1,8 @@
+<ul class="salutation-entries">
+  <li ng-repeat="entry in vm.entries">
+    {{entry.time}}
+    <span class="label">{{entry.salutation}}</span>
+    {{entry.name}}
+  </li>
+  <li class="empty" ng-if="vm.entries.length == 0">No entries</li>
+</ul>
