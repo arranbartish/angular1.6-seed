@@ -19,3 +19,4 @@ A seeded, fully plumbed hello world application using webpack inspired by https:
     - javascript linting
     - karma unit using jasmine
     - coverage (not working)
+    - travis ci integration
